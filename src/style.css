@@ -1,10 +1,10 @@
 body {
+  text-align: center;
   font-family: "PT Mono", monospace;
 }
 
 h1 {
   font-family: "Rubik Gemstones", cursive;
-  background-color: aquamarine;
 }
 
 h2 {
