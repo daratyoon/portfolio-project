@@ -1,16 +1,23 @@
+:root {
+  --heading-font-family: "Comfortaa", cursive;
+  --default-font-family: "Martian Mono", monospace;
+  --heading-color: #256f62;
+}
+
 body {
   text-align: center;
-  font-family: "PT Mono", monospace;
 }
 
 h1 {
-  font-family: "Rubik Gemstones", cursive;
+  color: var(--heading-color)
+  font-family: var(--heading-font-family);
 }
 
 h2 {
-  font-family: "Martian Mono", monospace;
+  color: #4c7b5f;
+  font-family: var(--default-font-family);
 }
 
 p {
-  font-family: "PT Mono", monospace;
+  font-family: var(--default-font-family);
 }
