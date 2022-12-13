@@ -1,7 +1,6 @@
 :root {
-  --heading-font-family: "Comfortaa", cursive;
-  --subheading-font-family: "Martian Mono", monospace;
-  --default-heading: "PT Mono", monospace;
+  --heading-font-family: "Martian Mono", monospace;
+  --default-font-family: "PT Mono", monospace;
   --heading-color: #579e98;
   --subheading-color: #eb113a;
   --background-color: #f4e8ef;
@@ -16,11 +15,11 @@ h1 {
   color: var(--heading-color);
   font-family: var(--heading-font-family);
   font-size: 80px;
+  font-weight: 700;
 }
 
 h2 {
   color: var(--subheading-color);
-  font-family: var(--subheading-font-family);
 }
 
 p {
@@ -38,8 +37,4 @@ p {
   color: white;
   border-radius: 4px;
   padding: 10px 20px;
-}
-
-i {
-  size: 100px;
 }
