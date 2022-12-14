@@ -3,7 +3,7 @@
   --default-font-family: "PT Mono", monospace;
   --heading-color: #579e98;
   --subheading-color: #eb113a;
-  --background-color: #f4e8ef;
+  --background-color: rgb(255, 190, 190, 0.5);
 }
 
 body {
@@ -16,6 +16,7 @@ h1 {
   font-family: var(--heading-font-family);
   font-size: 80px;
   font-weight: 700;
+  opacity: 90%;
 }
 
 h2 {
