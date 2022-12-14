@@ -30,7 +30,7 @@ p {
 .intro {
   background-color: var(--background-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
 .btn-main {
@@ -38,4 +38,9 @@ p {
   color: white;
   border-radius: 4px;
   padding: 10px 20px;
+}
+
+.weather-project {
+  font-size: 75px;
+  font-weight: 800;
 }
