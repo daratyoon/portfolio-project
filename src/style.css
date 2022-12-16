@@ -53,9 +53,15 @@ p {
   color: var(--subheading-color);
 }
 
-.calico-img {
+.calico-img,
+.weather-vanillajs-img {
   border-radius: 8px;
   border: white;
+}
+
+.subheading-weather-vanillajs {
+  font-size: 40px;
+  font-weight: 500;
 }
 
 li {
