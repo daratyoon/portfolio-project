@@ -41,12 +41,14 @@ p {
 }
 
 .weather-project,
-.calico-cat {
+.calico-cat,
+.weather-project-vanillajs {
   font-size: 75px;
   font-weight: 800;
 }
 .weather-link,
-.calico-link {
+.calico-link,
+.weather-link-vanillajs {
   text-decoration: none;
   color: var(--subheading-color);
 }
