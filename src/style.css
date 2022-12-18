@@ -85,3 +85,12 @@ li {
     text-align: center;
   }
 }
+
+.about-intro {
+  padding: 60px 120px;
+}
+
+.sandra-photo {
+  max-width: 300px;
+  border-radius: 10px;
+}
