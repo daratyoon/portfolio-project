@@ -87,10 +87,12 @@ li {
 }
 
 .about-intro {
-  padding: 60px 120px;
+  padding: 35px 120px;
+  line-height: 25px;
+  font-weight: 100;
 }
 
 .sandra-photo {
-  max-width: 300px;
+  max-width: 320px;
   border-radius: 10px;
 }
