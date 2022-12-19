@@ -46,9 +46,7 @@ p {
   font-size: 60px;
   font-weight: 800;
 }
-.weather-link,
-.calico-link,
-.weather-link-vanillajs {
+a {
   text-decoration: none;
   color: var(--subheading-color);
 }
@@ -60,13 +58,13 @@ p {
 }
 
 .calico-img,
-.weather-img,
-.weather-link-vanillajs {
+.weather-img {
   width: 550px;
 }
 
 .weather-vanillajs-img {
-  padding: 105px 10px;
+  padding: 70px 10px;
+  width: 650px;
 }
 
 .subheading-weather-vanillajs {
