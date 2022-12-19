@@ -80,6 +80,11 @@ li {
   line-height: 50px;
 }
 
+.about-heading {
+  font-size: 60px;
+  margin-bottom: 40px;
+}
+
 .about-intro {
   padding: 35px 120px;
   line-height: 25px;
@@ -89,6 +94,7 @@ li {
 .sandra-photo {
   max-width: 340px;
   border-radius: 10px;
+  margin-top: 200px;
 }
 
 @media (max-width: 576px) {
