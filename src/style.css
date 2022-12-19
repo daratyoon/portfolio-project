@@ -1,9 +1,9 @@
 :root {
   --heading-font-family: "Martian Mono", monospace;
   --default-font-family: "PT Mono", monospace;
-  --heading-color: #579e98;
+  --heading-color: #009695;
   --subheading-color: #eb113a;
-  --background-color: rgb(212, 204, 228, 0.5);
+  --background-color: rgb(254, 219, 215, 0.5);
 }
 
 body {
@@ -43,7 +43,7 @@ p {
 .weather-project,
 .calico-cat,
 .weather-project-vanillajs {
-  font-size: 75px;
+  font-size: 60px;
   font-weight: 800;
 }
 .weather-link,
@@ -59,6 +59,16 @@ p {
   border: white;
 }
 
+.calico-img,
+.weather-img,
+.weather-link-vanillajs {
+  width: 550px;
+}
+
+.weather-vanillajs-img {
+  padding: 105px 10px;
+}
+
 .subheading-weather-vanillajs {
   font-size: 40px;
   font-weight: 500;
@@ -70,7 +80,18 @@ li {
   line-height: 50px;
 }
 
-@media (max-width: 600px) {
+.about-intro {
+  padding: 35px 120px;
+  line-height: 25px;
+  font-weight: 100;
+}
+
+.sandra-photo {
+  max-width: 340px;
+  border-radius: 10px;
+}
+
+@media (max-width: 576px) {
   h1 {
     font-size: 70px;
     text-align: center;
@@ -84,15 +105,8 @@ li {
     font-size: 50px;
     text-align: center;
   }
-}
 
-.about-intro {
-  padding: 35px 120px;
-  line-height: 25px;
-  font-weight: 100;
-}
-
-.sandra-photo {
-  max-width: 320px;
-  border-radius: 10px;
+  .about-intro {
+    padding: 37px 78px;
+  }
 }
