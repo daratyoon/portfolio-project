@@ -86,15 +86,19 @@ li {
 }
 
 .about-intro {
-  padding: 35px 120px;
+  padding: 36px 190px;
   line-height: 25px;
   font-weight: 100;
+  margin-right: -107px;
+}
+.about-intro p {
+  margin-right: 20px;
 }
 
 .sandra-photo {
   max-width: 340px;
   border-radius: 10px;
-  margin-top: 200px;
+  margin: 160px 68px;
 }
 
 @media (max-width: 576px) {
