@@ -51,6 +51,10 @@ a {
   color: var(--subheading-color);
 }
 
+a:hover {
+  color: #009695;
+}
+
 .calico-img,
 .weather-vanillajs-img {
   border-radius: 8px;
