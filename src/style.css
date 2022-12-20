@@ -99,6 +99,10 @@ li {
   margin: 160px 68px;
 }
 
+.projects-subheading {
+  color: rgb(176, 145, 255);
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 70px;
