@@ -4,6 +4,7 @@
   --heading-color: #009695;
   --subheading-color: #eb113a;
   --background-color: rgb(254, 219, 215, 0.5);
+  --alt-subheading-color: rgb(176, 145, 255);
 }
 
 body {
@@ -104,7 +105,7 @@ li {
 }
 
 .projects-subheading {
-  color: rgb(176, 145, 255);
+  color: var(--alt-subheading-color);
 }
 
 @media (max-width: 576px) {
