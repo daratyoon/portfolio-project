@@ -108,6 +108,10 @@ li {
   color: var(--alt-subheading-color);
 }
 
+.slide-show img {
+  width: 300px;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 70px;
