@@ -40,11 +40,9 @@ p {
   padding: 10px 20px;
 }
 
-.weather-project,
-.calico-cat,
-.weather-project-vanillajs {
+.container-heading {
   font-size: 60px;
-  font-weight: 800;
+  margin-bottom: 40px;
 }
 
 a {
@@ -81,11 +79,6 @@ li {
   text-align: center;
   list-style: none;
   line-height: 50px;
-}
-
-.about-heading {
-  font-size: 60px;
-  margin-bottom: 40px;
 }
 
 .content-container {
