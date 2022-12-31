@@ -88,13 +88,13 @@ li {
   margin-bottom: 40px;
 }
 
-.about-intro {
+.content-container {
   padding: 36px 190px;
   line-height: 25px;
   font-weight: 100;
   margin-right: -107px;
 }
-.about-intro p {
+.content-container p {
   margin-right: 20px;
 }
 
