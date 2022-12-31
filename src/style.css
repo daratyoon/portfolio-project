@@ -24,6 +24,10 @@ h2 {
   color: var(--subheading-color);
 }
 
+h4 {
+  font-weight: 600;
+}
+
 p {
   font-weight: normal;
 }
@@ -40,9 +44,9 @@ p {
   padding: 10px 20px;
 }
 
-.container-heading {
+.content-heading {
   font-size: 60px;
-  margin-bottom: 40px;
+  margin: 40px 0;
 }
 
 a {
@@ -70,11 +74,6 @@ a:hover {
   width: 650px;
 }
 
-.subheading-weather-vanillajs {
-  font-size: 40px;
-  font-weight: 500;
-}
-
 li {
   text-align: center;
   list-style: none;
@@ -88,7 +87,7 @@ li {
   margin-right: -107px;
 }
 .content-container p {
-  margin-right: 20px;
+  margin: 5px -20px;
 }
 
 .sandra-photo {
@@ -102,7 +101,9 @@ li {
 }
 
 .slide-show img {
-  width: 300px;
+  margin-top: 30px;
+  width: 280px;
+  border-radius: 5px;
 }
 
 @media (max-width: 576px) {
@@ -110,17 +111,20 @@ li {
     font-size: 70px;
     text-align: center;
   }
-  intro {
+  .intro {
     padding: 50px 15px;
   }
-  .weather-project,
-  .calico-cat,
-  .weather-project-vanillajs {
-    font-size: 50px;
+  .content-heading {
+    font-size: 70px;
     text-align: center;
   }
 
-  .about-intro {
+  .content-container {
+    text-align: center;
     padding: 37px 78px;
+  }
+
+  .sandra-photo {
+    margin: 0 auto;
   }
 }
