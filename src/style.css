@@ -77,7 +77,6 @@ a:hover {
 }
 
 li {
-  text-align: center;
   list-style: none;
   line-height: 50px;
 }
@@ -107,6 +106,23 @@ li {
   margin-top: 90px;
   width: 380px;
   border-radius: 8px;
+}
+
+nav .logo-title {
+  position: relative;
+  right: 500px;
+  margin: 10px;
+  font-weight: bolder;
+  font-size: 22px;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  padding: 20px;
 }
 
 @media (max-width: 576px) {
