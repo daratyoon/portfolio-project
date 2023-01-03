@@ -47,6 +47,7 @@ p {
 .btn-main:hover {
   background-color: white;
   color: var(--heading-color);
+  transition: all 130ms ease-in-out;
 }
 
 .content-heading {
@@ -133,6 +134,11 @@ footer .social-links a {
   margin: 20px;
 }
 
+.footer-info {
+  opacity: 85%;
+  font-size: 14px;
+}
+
 @media (max-width: 576px) {
   h1,
   .content-heading {
@@ -145,6 +151,10 @@ footer .social-links a {
   .sandra-photo {
     width: 300px;
     margin: 0 auto;
+  }
+
+  h2 {
+    margin-top: 15px;
   }
 
   .content-container {
