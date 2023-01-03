@@ -173,4 +173,8 @@ footer .social-links a {
     font-size: 15px;
     margin-left: 12px;
   }
+
+  .footer-info {
+    font-size: 12px;
+  }
 }
