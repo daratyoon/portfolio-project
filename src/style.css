@@ -108,6 +108,11 @@ li {
   border-radius: 8px;
 }
 
+.carousel-control-next,
+.carousel-control-prev {
+  margin-top: 150px;
+}
+
 nav {
   padding: 15px 0;
 }
