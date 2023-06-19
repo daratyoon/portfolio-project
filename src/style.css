@@ -82,6 +82,10 @@ a:hover,
   width: 650px;
 }
 
+.film-photography-page-img {
+  width: 600px;
+}
+
 li {
   list-style: none;
   line-height: 50px;
